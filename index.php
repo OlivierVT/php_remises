@@ -105,35 +105,41 @@ function isyes($question){
 
     <div class="input_zone">
        <p>aller à Amsterdam avec des potes</p>
-        <p><label for="amsterdam" class="pure-radio">oui<input type="radio" name="amsterdam" value="oui" required <?php if((!empty($_GET['amsterdam']) &&($_GET['amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-        <label for="amsterdam" class="pure-radio">non<input type="radio" name="amsterdam" value="non" required <?php if((!empty($_GET['amsterdam']) &&($_GET['amsterdam']) =='non')){ echo 'checked="checked"';} ?>></label></p>
+        <p><label for="amsterdam" class="pure-radio">oui
+            <input type="radio" name="amsterdam" value="oui" required <?php if((!empty($_GET['amsterdam']) &&($_GET['amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>>
+            </label>
+
+        <label for="amsterdam" class="pure-radio">non
+            <input type="radio" name="amsterdam" value="non" required <?php if((!empty($_GET['amsterdam']) &&($_GET['amsterdam']) =='non')){ echo 'checked="checked"';} ?>>
+        </label>
+        </p>
     </div>
 
    <div class="input_zone">
     <p>sortir en boite et boire avec des potes</p>
-       <p><label for="boire" class="pure-radio">oui<input type="radio" name="boire" value="oui" required <?php if( (!empty($_GET['boire']) &&($_GET[ 'amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-       <label for="boire" class="pure-radio">non<input type="radio" name="boire" value="non" required <?php if( (!empty($_GET['boire']) &&($_GET[ 'amsterdam']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
+       <p><label for="boire" class="pure-radio">oui<input type="radio" name="boire" value="oui" required <?php if( (!empty($_GET['boire']) &&($_GET[ 'boire']) =='oui') ){ echo 'checked="checked"';} ?>></label>
+       <label for="boire" class="pure-radio">non<input type="radio" name="boire" value="non" required <?php if( (!empty($_GET['boire']) &&($_GET[ 'boire']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
     </div>
 
     <div class="input_zone">
        <p>faire des courses pour un barbecue avec des potes</p>
-        <p><label for="course" class="pure-radio">oui<input type="radio" name="course" value="oui" required <?php if( (!empty($_GET['course']) &&($_GET[ 'amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-        <label for="course" class="pure-radio">non<input type="radio" name="course" value="non" required <?php if( (!empty($_GET['course']) &&($_GET[ 'amsterdam']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
+        <p><label for="course" class="pure-radio">oui<input type="radio" name="course" value="oui" required <?php if( (!empty($_GET['course']) &&($_GET[ 'course']) =='oui') ){ echo 'checked="checked"';} ?>></label>
+        <label for="course" class="pure-radio">non<input type="radio" name="course" value="non" required <?php if( (!empty($_GET['course']) &&($_GET[ 'course']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
     </div>
    <div class="input_zone">
     <p>conduire la soeur à un entretien</p>
-       <p><label for="entretien" class="pure-radio">oui<input type="radio" name="entretien" value="oui" required <?php if( (!empty($_GET['entretien']) &&($_GET[ 'amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-       <label for="entretien" class="pure-radio">non<input type="radio" name="entretien" value="non" required <?php if( (!empty($_GET['entretien']) &&($_GET[ 'amsterdam']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
+       <p><label for="entretien" class="pure-radio">oui<input type="radio" name="entretien" value="oui" required <?php if( (!empty($_GET['entretien']) &&($_GET[ 'entretien']) =='oui') ){ echo 'checked="checked"';} ?>></label>
+       <label for="entretien" class="pure-radio">non<input type="radio" name="entretien" value="non" required <?php if( (!empty($_GET['entretien']) &&($_GET[ 'entretien']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
     </div>
     <div class="input_zone">
        <p>aller réviser mon blocus en bibliothèque</p>
-       <p><label for="vaiselle" class="pure-radio">oui<input type="radio" name="vaiselle" value="oui" required <?php if( (!empty($_GET['vaiselle']) &&($_GET[ 'amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-       <label for="vaiselle" class="pure-radio">non<input type="radio" name="vaiselle" value="non" required <?php if( (!empty($_GET['vaiselle']) &&($_GET[ 'amsterdam']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
+       <p><label for="vaiselle" class="pure-radio">oui<input type="radio" name="vaiselle" value="oui" required <?php if( (!empty($_GET['vaiselle']) &&($_GET[ 'vaiselle']) =='oui') ){ echo 'checked="checked"';} ?>></label>
+       <label for="vaiselle" class="pure-radio">non<input type="radio" name="vaiselle" value="non" required <?php if( (!empty($_GET['vaiselle']) &&($_GET[ 'vaiselle']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
     </div>
     <div class="input_zone">
        <p>pour l'amener au carwash</p>
-       <p><label for="carwash" class="pure-radio">oui<input type="radio" name="carwash" value="oui" required <?php if( (!empty($_GET['carwash']) &&($_GET[ 'amsterdam']) =='oui') ){ echo 'checked="checked"';} ?>></label>
-       <label for="carwash" class="pure-radio">non<input type="radio" name="carwash" value="non" required <?php if( (!empty($_GET['carwash']) &&($_GET[ 'amsterdam']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
+       <p><label for="carwash" class="pure-radio">oui<input type="radio" name="carwash" value="oui" required <?php if( (!empty($_GET['carwash']) &&($_GET[ 'carwash']) =='oui') ){ echo 'checked="checked"';} ?>></label>
+       <label for="carwash" class="pure-radio">non<input type="radio" name="carwash" value="non" required <?php if( (!empty($_GET['carwash']) &&($_GET[ 'carwash']) =='non') ){ echo 'checked="checked"';} ?>></label></p>
     </div>
         <button type="submit" class="button-large pure-button">demander à papa la voiture</button>
 
