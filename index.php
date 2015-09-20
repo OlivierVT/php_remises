@@ -7,13 +7,10 @@ function isyes($question){
         return 0;
     }
 }
-
 //function checked($check_input){
 //    if(!empty($_GET) && (isyes($questions))){
 //        echo 'checked="checked"';}
 //    }
-
-
     if($_GET){
 
         $questions = array($_GET['amsterdam'],
@@ -46,11 +43,6 @@ function isyes($question){
         }
 
     }
-
-
-
-
-
 ?>
 
 <!--// trouver une solution pour que si un des choix est "non", même si les autres sont = OUI ils donne une réponse négative.-->
@@ -69,11 +61,6 @@ function isyes($question){
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">               </script>
 <![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-
-
-
-        <!-- typekit here -->
-
         <style>
 
             body{
