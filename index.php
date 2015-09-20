@@ -307,7 +307,7 @@ function isyes($question){
     </form>
     <?php } ?>
 
-    <footer><p>Exerice n°1 Server Side réalisé par <a href="oliviervantriel.be">Olivier van triel</a> <small>&copy;</small> HEAJ 2015 </p></footer>
+    <footer><p>Exerice n°1 Server Side réalisé par Olivier van triel <small>&copy;</small> HEAJ 2015 </p></footer>
 
     </body>
 
